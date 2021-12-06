@@ -7,6 +7,8 @@ sudo ufw enable
 sudo ufw app list
 sudo ufw allow 'Apache Full'
 sudo systemctl status apache2
+#sudo a2enmod rewrite
+#sudo systemctl restart apache2
 #sudo systemctl stop apache2
 #sudo systemctl start apache2
 sudo apt-get install xrdp
