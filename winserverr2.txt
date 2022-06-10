@@ -1,0 +1,10 @@
+DISM /online /Set-Edition:ServerStandard /ProductKey:NB4WH-BBBYV-3MPPC-9RCMV-46XCB /AcceptEula
+
+Windows Server 2012 R2 Standard
+1. Chạy CMD (admin)
+2. Nhập lệnh:
+slmgr.vbs /ipk D2N9P-3P6X9-2R39C-7RTCD-MDVJX
+3. Nhập lệnh:
+slmgr.vbs /skms kms.digiboy.ir
+4. Nhập lệnh:
+slmgr.vbs /ato
